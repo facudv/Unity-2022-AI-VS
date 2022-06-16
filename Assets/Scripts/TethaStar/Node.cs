@@ -12,7 +12,7 @@ public class Node : MonoBehaviour
     public LayerMask layerNodeAndObstacles;
    
     private RaycastHit[] _raycastHits;
-    
+
     public void FindNearNodes()
     {
         nearNodes = new List<Node>();
